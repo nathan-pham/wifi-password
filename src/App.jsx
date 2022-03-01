@@ -12,8 +12,11 @@ const App = () => {
         <main className="h-screen w-screen grid place-items-center">
             <div className="max-w-lg">
                 <div className="rounded-md cursor-pointer transition-all hover:-translate-y-2 hover:shadow-lg border p-6">
-                    <h1 className="text-2xl font-semibold">Del Oro Wifi Password</h1>
-                    <div className="flex justify-between items-center mt-2">
+                    <h1 className="text-2xl font-semibold flex items-center">
+                        <img src="/src/favicon-32x32.png" className="mr-2" />
+                        Del Oro Wifi Password
+                    </h1>
+                    <div className="flex justify-between items-center mt-4">
                         <p className="text-gray-700 font-mono">{hidden ? maskedPassword : password}</p>
                         <span onClick={onClick}>{hidden ? <EyeOffOutline /> : <EyeOutline />}</span>
                     </div>
