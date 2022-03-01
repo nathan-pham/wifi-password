@@ -1,5 +1,8 @@
 import { EyeOffOutline, EyeOutline } from "react-ionicons";
 import { useState } from "react";
+
+import faviconSrc from "./favicon-32x32.png";
+
 const App = () => {
     const password = "ChromeIsGolden2022";
     const maskedPassword = password.replace(/./g, "·");
@@ -13,7 +16,7 @@ const App = () => {
             <div className="max-w-lg">
                 <div className="rounded-md cursor-pointer transition-all hover:-translate-y-2 hover:shadow-lg border p-6">
                     <h1 className="text-2xl font-semibold flex items-center">
-                        <img src="/src/favicon-32x32.png" className="mr-2" />
+                        <img src={faviconSrc} className="mr-2" />
                         Del Oro Wifi Password
                     </h1>
                     <div className="flex justify-between items-center mt-4">
