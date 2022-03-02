@@ -32,7 +32,7 @@ const App = () => {
                 </div>
             </main>
 
-            <a className="fixed group right-4 cursor-pointer bottom-4 rounded-full h-10 w-10 border grid place-items-center" target="_blank" rel="noreferrer" href="https://www.patreon.com/nathanpham">
+            <a className="fixed group right-4 cursor-pointer bottom-4 rounded-full h-10 w-10 border grid place-items-center" target="_blank" rel="noreferrer" href="https://www.patreon.com/anonymouspickle">
                 <HelpOutline />
                 <span className="absolute right-14 pointer-events-none bg-black rounded-md py-1 px-3 text-white opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
                     idk you could pay me (click ?)
